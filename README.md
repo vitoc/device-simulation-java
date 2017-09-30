@@ -114,5 +114,5 @@ Please enter issues, bugs, or suggestions as GitHub Issues here: https://github.
 [storageadapter-url]: https://github.com/Azure/pcs-storage-adapter-java/blob/master/README.md
 [iothubconnstring-url]: https://blogs.msdn.microsoft.com/iotdev/2017/05/09/understand-different-connection-strings-in-azure-iot-hub
 [postman-url]: https://www.getpostman.com
-[wiki-createsim-url]: wiki/%5BAPI-Specifications%5D-Simulations#create-default-simulation
+[wiki-createsim-url]: https://github.com/Azure/device-simulation-java/wiki/%5BAPI-Specifications%5D-Simulations#create-default-simulation
 [docker-compose-install-url]: https://docs.docker.com/compose/install
