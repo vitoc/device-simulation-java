@@ -7,7 +7,7 @@ version: "3"
 
 services:
   devicesimulation:
-    image: azureiotpcs/device-simulation-dotnet:latest
+    image: azureiotpcs/device-simulation-dotnet:1.0.0-preview
     depends_on:
       - storageadapter
     ports:
@@ -18,7 +18,7 @@ services:
     volumes:
       - ./data:/app/data:ro
   storageadapter:
-    image: azureiotpcs/pcs-storage-adapter-dotnet:latest
+    image: azureiotpcs/pcs-storage-adapter-dotnet:1.0.0-preview
     ports:
       - "9022:9022"
     environment:

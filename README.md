@@ -18,7 +18,7 @@ Each **device model** defines a distinct behavior, like the data generated
 by virtual sensors, frequency and format of the telemetry, network protocols,
 which methods are supported.
 
-<img src="https://github.com/Azure/device-simulation-java/blob/master/docs/overview.png">
+<img src="docs/overview.png">
 
 Dependencies
 ============
@@ -107,8 +107,9 @@ Please enter issues, bugs, or suggestions as GitHub Issues here: https://github.
 
 [issues-badge]: https://img.shields.io/github/issues/azure/device-simulation-java.svg
 [issues-url]: https://github.com/azure/device-simulation-java/issues
-[gitter-badge]: https://img.shields.io/gitter/room/azure/iot-pcs.js.svg
-[gitter-url]: https://gitter.im/azure/iot-pcs
+[gitter-badge]: https://img.shields.io/gitter/room/azure/iot-solutions.js.svg
+[gitter-url]: https://gitter.im/azure/iot-solutions
+
 [iothub-url]: https://azure.microsoft.com/services/iot-hub
 [storageadapter-url]: https://github.com/Azure/pcs-storage-adapter-java/blob/master/README.md
 [iothubconnstring-url]: https://blogs.msdn.microsoft.com/iotdev/2017/05/09/understand-different-connection-strings-in-azure-iot-hub

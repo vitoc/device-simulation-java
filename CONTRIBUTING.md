@@ -5,8 +5,15 @@ Contribution license Agreement
 ==============================
 
 If you want/plan to contribute, we ask you to sign a
-[CLA](https://cla.microsoft.com/) (Contribution license Agreement).
+[CLA](https://cla.microsoft.com/) (Contribution License Agreement).
 A friendly bot will remind you about it when you submit a pull-request.
+
+This project has adopted the
+[Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct).
+For more information see the
+[Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq)
+or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with
+any additional questions or comments.
 
 Submitting a contribution
 =========================
@@ -30,7 +37,5 @@ the existing tests to see the testing approach and style used.
 
 Some quick notes about the project code style:
 
-1. Where reasonable, lines length is limited to 80 chars max, to help code
-   reviews and command line editors.
-2. Code blocks indentation with 4 spaces. The tab char should be avoided.
-3. Text files use Unix end of line format (LF).
+1. Code blocks indentation with 4 spaces. The tab char should be avoided.
+2. Text files use Unix end of line format (LF).
