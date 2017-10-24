@@ -100,7 +100,7 @@ Troubleshooting
    Shared Drives a helpful read if you encounter any issue when changing 
    networks (i.e. going from the corporate network in the office to your 
    home network).
-1. For Windows user of VS Code, you will currently 
+1. For Windows user of VS Code, you could  
    [run into this VS Code issue][vscode-docker-compose-issue] when trying to 
    run `docker-compose up`. Use PowerShell [instead][powershell-docker-compose].
 
