@@ -44,7 +44,7 @@ How to use the microservice
    need help finding it.
 1. Store the "IoT Hub Connection string" in the [env-vars-setup](env-vars-setup)
    (or [env-vars-setup.cmd](env-vars-setup.cmd)) script.
-1. [Install Docker Compose][docker-compose-install-url]
+1. [Install Docker Compose][docker-compose-install-url].
 1. Start the Simulation service using Docker Compose, open a console and run:
    ```
    cd device-simulation-java
@@ -53,6 +53,7 @@ How to use the microservice
    ```
 1. Use an HTTP client such as [Postman][postman-url], to exercise the
    [RESTful API][wiki-createsim-url] to create a simulation.
+
 
 ## Project Structure
 
@@ -94,7 +95,14 @@ Please follow our [contribution guidelines](CONTRIBUTING.md).  We love PRs too.
 Troubleshooting
 ===============
 
-{TODO}
+1. For Windows users, 
+   you may find [this tip][docker-shared-drive-windows] on configuring 
+   Shared Drives a helpful read if you encounter any issue when changing 
+   networks (i.e. going from the corporate network in the office to your 
+   home network).
+1. For Windows user of VS Code, you will currently 
+   [run into this VS Code issue][vscode-docker-compose-issue] when trying to 
+   run `docker-compose up`. Use PowerShell [instead][powershell-docker-compose].
 
 Feedback
 ==========
@@ -116,3 +124,7 @@ Please enter issues, bugs, or suggestions as GitHub Issues here: https://github.
 [postman-url]: https://www.getpostman.com
 [wiki-createsim-url]: https://github.com/Azure/device-simulation-java/wiki/%5BAPI-Specifications%5D-Simulations#create-default-simulation
 [docker-compose-install-url]: https://docs.docker.com/compose/install
+
+[docker-shared-drive-windows]: https://blogs.msdn.microsoft.com/stevelasker/2016/06/14/configuring-docker-for-windows-volumes/
+[vscode-docker-compose-issue]: https://github.com/Microsoft/vscode/issues/36630
+[powershell-docker-compose]: https://github.com/docker/compose/issues/5019
